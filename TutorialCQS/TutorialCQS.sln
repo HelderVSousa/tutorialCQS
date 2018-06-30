@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TutorialCQS", "TutorialCQS\TutorialCQS.csproj", "{18C88CC2-4CB0-43D6-AA19-2AE01D481456}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{2FD858B5-4DAA-46C6-A650-417E1076853E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQLScripts", "CQLScripts", "{DBC1BA1B-D342-4CB8-932F-F7E438CC4297}"
+	ProjectSection(SolutionItems) = preProject
+		TutorialCQS\Scripts\CQLScripts\001 - Create Keyspace and tables .cql = TutorialCQS\Scripts\CQLScripts\001 - Create Keyspace and tables .cql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DockerScripts", "DockerScripts", "{FD0273D2-31C8-453D-8E0C-C15A496A4D85}"
+	ProjectSection(SolutionItems) = preProject
+		TutorialCQS\Scripts\DockerScripts\docker-cassandra.yml = TutorialCQS\Scripts\DockerScripts\docker-cassandra.yml
+		TutorialCQS\Scripts\DockerScripts\docker-kafka.yml = TutorialCQS\Scripts\DockerScripts\docker-kafka.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18C88CC2-4CB0-43D6-AA19-2AE01D481456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C88CC2-4CB0-43D6-AA19-2AE01D481456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C88CC2-4CB0-43D6-AA19-2AE01D481456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C88CC2-4CB0-43D6-AA19-2AE01D481456}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DBC1BA1B-D342-4CB8-932F-F7E438CC4297} = {2FD858B5-4DAA-46C6-A650-417E1076853E}
+		{FD0273D2-31C8-453D-8E0C-C15A496A4D85} = {2FD858B5-4DAA-46C6-A650-417E1076853E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5979601E-2E60-4B15-9442-EBF33E143C75}
+	EndGlobalSection
+EndGlobal
